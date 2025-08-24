@@ -6,7 +6,7 @@
 /*   By: saouragh <saouragh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/24 15:32:13 by saouragh          #+#    #+#             */
-/*   Updated: 2025/08/24 17:20:54 by saouragh         ###   ########.fr       */
+/*   Updated: 2025/08/24 20:55:51 by saouragh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,8 @@
 # include "../ft_printf/ft_printf.h"
 # include <signal.h>
 # include <unistd.h>
+
+/* Global variable for signal acknowledgment */
+extern int	g_received;
 
 #endif
